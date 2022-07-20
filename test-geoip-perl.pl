@@ -18,4 +18,3 @@ printf "%s =  %s (should display CZ, not GB)\n", $ip, $geo;
 $ip = '185.25.95.1';
 $geo = $gi->country_code_by_addr( $ip );
 printf "%s =  %s (should display CZ, not CH)\n", $ip, $geo;
-
